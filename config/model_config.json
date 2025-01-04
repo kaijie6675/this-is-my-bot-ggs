@@ -1,0 +1,16 @@
+{
+    "actor": {
+        "hidden_layers": [400, 300],
+        "activation": "relu"
+    },
+    "critic": {
+        "hidden_layers": [400, 300],
+        "activation": "relu"
+    },
+    "ddpg": {
+        "discount": 0.99,
+        "tau": 0.005,
+        "batch_size": 64,
+        "replay_buffer_size": 1000000
+    }
+}
